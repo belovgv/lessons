@@ -1,0 +1,8 @@
+valgrind --tool=memcheck --leak-check=yes  ./sort.out
+
+gcc -std=c11 -Wall -Wextra -Werror -pedantic -fsanitize=address sort_no_leak.c -o sort_no_leak
+
+gcc -o game_of_life src/game_of_life.c -lncurses
+
+cppcheck --enable=all --suppress=missingIncludeSystem soursefile_name.c
+

@@ -1,0 +1,20 @@
+{
+    // Ассоциации файлов (чтобы VS Code правильно понимал язык)
+    "files.associations": {
+        "stdio.h": "c",
+        "math.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "stdbool.h": "c"
+    },
+
+    // Форматирование кода
+    "editor.tabSize": 4,                // размер таба (можно поставить 1, если надо строго 1 табуляцию)
+    "editor.insertSpaces": false,       // использовать реальные табы, а не пробелы
+    "editor.detectIndentation": false,  // чтобы VS Code не подменял стиль отступов
+
+    // Настройки C/C++ расширения (ms-vscode.cpptools)
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",  // путь к компилятору
+    "C_Cpp.default.cStandard": "c11",              // стандарт языка
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64"
+}
